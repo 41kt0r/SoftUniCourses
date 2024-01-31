@@ -1,0 +1,20 @@
+h1 {
+    font-size: 50px;
+}
+
+.first {
+    text-decoration: underline;
+}
+
+#second {
+    font-style: italic;
+}
+
+[class] {
+    color: red;
+}
+
+div {
+    background-color: green;
+    color: red;
+}
