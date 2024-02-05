@@ -1,0 +1,40 @@
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css);
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+p{
+    padding: 0.5em;
+}
+
+.button {
+    display: inline-block;
+    line-height: 1;
+    margin: 1em;
+    padding: 0.6em 1em;
+    border: 1px solid;
+    border-radius: 2em;
+    background-color: #20d420;
+}
+
+.button:hover {
+    background-color: orange;
+}
+
+html {
+    font: 14px/1.5 cursive;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* nav {
+    background: #eee;
+    width: 12em;
+    border: 1px solid #ccc;
+    padding: 2em;
+} */
+

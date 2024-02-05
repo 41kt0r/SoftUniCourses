@@ -1,0 +1,28 @@
+body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #333; /* Цвят на фона на навигационната лента */
+    padding: 10px;
+    text-align: right;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav li {
+    display: inline-block;
+    margin-left: 15px; 
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: white; 
+    font-weight: bold;
+  }
+  
