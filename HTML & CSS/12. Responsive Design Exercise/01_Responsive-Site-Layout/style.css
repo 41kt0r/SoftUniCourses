@@ -1,0 +1,58 @@
+body {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 1em;
+    max-width: 90vh;
+    margin: 0 auto;
+    padding: 50px;
+}
+
+header,
+main,
+aside,
+footer {
+    background-color: rgb(152, 196, 239);
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.mainAside {
+    display: flex;
+    gap: 1em;
+}
+
+aside {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+    flex-grow: 0.2;
+    list-style: none;
+}
+
+main {
+    flex-grow: 1;
+}
+
+
+
+aside li a {
+    text-decoration: none;
+}
+
+
+
+footer {
+    padding: 0;
+}
+
+footer p {
+    padding: 0;
+    margin: 0.2em;
+}
+
+@media (max-width: 500px) {
+    .mainAside {
+        flex-direction: column;
+    }
+}
